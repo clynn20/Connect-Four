@@ -3,8 +3,7 @@ In one player mode, the human will play against the computer.
 In two player mode, the program will allow each player to take turns.
 Neither the number of columns nor the number of rows can be over 20.
 
-Use below command to compile to program
-g++ -std=c++11 connectfour.cpp -o connect_four
+Use command make to compile to program
 
 Use below command format to run the program
 ./connect_four <# of players> <# of columns> <# of rows>
