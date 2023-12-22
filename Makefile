@@ -1,5 +1,5 @@
 CC = g++ -std=c++11
-exe_file = connectfour
+exe_file = connect_four
 $(exe_file): connectfour.o 
 	$(CC) connectfour.o -o $(exe_file)
 connectfour.o: connectfour.cpp
